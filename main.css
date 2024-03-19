@@ -1,0 +1,28 @@
+.container {
+  width: 700px;
+  height: 700px;
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: blueviolet;
+  width: 200px;
+  height: 150px;
+  border: 1px solid;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.item3 {
+  order: -1;
+}
